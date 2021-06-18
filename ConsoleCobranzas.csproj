@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>AppCobranzas</PackageId>
+    <Authors>Angel Pinilla Ibarra</Authors>
+    <Company>Sisgen Chile</Company>
+    <Product>AppNetCore3.1</Product>
+    <Description>Aplicación la cual genera un envio automatico de pdf a cliente en cuestion. Luego de 4 dias, se enviará un recordatorio via email al mismo cliente.</Description>
+    <AssemblyName>sisgenservice</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.18" />
+  </ItemGroup>
+
+</Project>
